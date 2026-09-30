@@ -1,0 +1,41 @@
+class student:
+
+   def_ _int_ _(self,roll,name,marks,address):
+        self.roll = roll
+         self,name = name
+         self.marks = marks
+         self.address = address
+
+s1 = student (100,"Ram",50,"pune")
+         print(s1.roll)
+         print(s1.name)
+         print(s1.marks)
+         print(s1.address)
+
+class Teacher:
+  
+     def_ _int_ _(self,name,salary,department,address):
+          self.name = name
+           self.salary = salary
+           self.department = department
+          self.address = address
+     
+t1 = Teacher("Snehal",55000,"computer science","pune")
+            print(t1.name)
+            print(t1.salary)
+            print(t1.department)
+            print(t1.address)
+
+class Address:
+      
+      def_ _int_ _(self,city,pin)
+          self.city = city
+           self.pin = pin
+
+ a1 = address("pune",411011)
+        print(a1.city)
+        print(a1.pin)
+
+      
+ 
+
